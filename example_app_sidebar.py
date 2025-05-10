@@ -7,7 +7,7 @@ import filters_sidebar_grouped_dynamic as filters_sidebar
 st.set_page_config(page_title="Wolf Screener", layout="wide")
 
 # Logo and header
-wolf_url = "https://cdn-icons-png.flaticon.com/512/616/616408.png"
+wolf_url = "https://i.imgur.com/yOAdO7R.png'"
 st.sidebar.image(wolf_url, width=180)
 st.markdown(
     f"""
