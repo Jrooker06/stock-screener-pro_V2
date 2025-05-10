@@ -6,8 +6,9 @@ import filters_sidebar_grouped_dynamic as filters_sidebar
 
 st.set_page_config(page_title="Wolf Screener", layout="wide")
 
-# Logo and header
-wolf_url = "https://i.imgur.com/yOAdO7R.png'"
+# Hosted GitHub wolf icon (user should replace with their actual path)
+wolf_url = "https://raw.githubusercontent.com/your-username/your-repo/main/assets/wolf_icon.png"
+
 st.sidebar.image(wolf_url, width=180)
 st.markdown(
     f"""
@@ -40,7 +41,6 @@ def load_data():
     return pd.DataFrame(rows)
 
 df = load_data()
-
 filters_sidebar.show_sidebar_filters(df)
 
 st.markdown("### Stock Overview")
