@@ -2,7 +2,7 @@
 import streamlit as st
 
 def show_sidebar_filters(df):
-    st.sidebar.image("https://cdn-icons-png.flaticon.com/512/616/616408.png", width=180)
+    st.sidebar.image("https://i.imgur.com/yOAdO7R.png'", width=180)
     st.sidebar.markdown("### 📌 Filters")
 
     preset_name = st.sidebar.text_input("Preset Name")
